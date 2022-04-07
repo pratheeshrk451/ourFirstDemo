@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src\\test\\resources\\FeatureFiles\\hotelBooking.feature",
-monochrome=true,glue= "com.stepDef",dryRun=false
+monochrome=true,glue= "com.stepDef"
 		)
 public class TestRunner {
 
